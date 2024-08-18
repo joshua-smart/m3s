@@ -1,0 +1,13 @@
+[package]
+name = "mmms"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+axum = "0.7.5"
+clap = { version = "4.5.13", features = ["derive", "env"] }
+time = { version = "0.3.36", features = ["parsing", "macros"] }
+tokio = { version = "1.39.3", features = ["full"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
